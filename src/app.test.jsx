@@ -1,0 +1,1 @@
+import{describe,it,expect}from"vitest";import{plans,quotes}from"./content";describe("Kingdom content",()=>{it("has three membership tiers",()=>expect(plans).toHaveLength(3));it("has motivational quote loop",()=>expect(quotes.length).toBeGreaterThanOrEqual(5));});
